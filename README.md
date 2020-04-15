@@ -1,6 +1,14 @@
 Ever wanted to pull in Cubhouse story details into Google Sheet?  And keep the information up to date as the story matures?
 Well, now you can…
-This Google script provides a set of ch*() functions to import Clubhouse story details based on a story ID.  The functions in the script rely on Clubhouse REST APIs (https://clubhouse.io/api/rest/v3/) and `ImportJSON` project (https://gist.github.com/paulgambill/cacd19da95a1421d3164).
+This Google script provides a set of `chGet*()` functions to import Clubhouse story details based on a story ID.  The functions in the script rely on Clubhouse REST APIs (https://clubhouse.io/api/rest/v3/) and `ImportJSON` project (https://gist.github.com/paulgambill/cacd19da95a1421d3164).
+
+Some of the most useful functions:
+- `=chGetStoryUrl()`
+- `=chGetStoryName()`	
+- `=chGetEpicName()`	
+- `=chGetProjectName()`	
+- `=chGetIterationName()`	
+- `=chGetOwnerNameList()`
 
 Instructions:
 1. Generate Clubhouse API token: https://help.clubhouse.io/hc/en-us/articles/205701199-Clubhouse-API-Tokens
